@@ -43,6 +43,12 @@ Add the following to your application's Databaseseeder.php file
         $this->call(District9TableSeeder::class);
         $this->call(District10TableSeeder::class);
 ```
+
+run the following command to Autoload your files 
+```
+composer dump-autoload
+```
+
 Finally run the following command to seed to your database
 ```bash
 $ php artisan db:seed
