@@ -1,0 +1,20 @@
+{
+    "name": "wapnen/ghregionsdistrict",
+    "description": "Laravel package to get Ghana's regions and districts",
+    "keywords": ["laravel", "Ghana", "Regions", "districts"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wapnen Gowok",
+            "email": "wapneng@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wapnen\\GhRegionDistrict\\": "packages/wapnen/gh-regions-districts/src"
+        }
+    },
+}
